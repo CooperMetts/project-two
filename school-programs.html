@@ -1,23 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/main.css">
-    <script src="./scripts/navbar.js" defer></script> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <script src="./scripts/navbar.js" defer></script>
     <title>Document</title>
-</head>
-<body>
-    School Programs
-    <nav>
-        <ul>
-            <li><a href="./">Home</a></li>
-            <li><a href="./summer-camp.html">Summer Camp</a></li>
-            <li><a href="./">Retreats</a></li>
-            <li><a href="./school-programs.html">School Programs</a></li>
-            <li><a href="./credits.html">Credits</a></li>
-        </ul>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div>
+        <a href="#"><img src="./images/cropped-logo-donlee-2.png" alt="" /> </a>
+      </div>
+      <ul class="nav-list">
+        <li class="list-item">
+          <a href="./index.html">Home</a>
+        </li>
+        <li class="list-item">
+          <a href="./summer-camp.html">Summer Camp</a>
+        </li>
+        <li class="list-item">
+          <a href="./retreats.html">Retreats</a>
+        </li>
+        <li class="list-item">
+          <a href="./school-programs.html">School Programs</a>
+        </li>
+        <li class="list-item">
+          <a href="./credits.html">Credits</a>
+        </li>
+      </ul>
     </nav>
-</body>
+
+    <div class="school-programs-hero">
+      <div>
+        <h1>School Programs</h1>
+      </div>
+    </div>
+
+    <div class="camp-card-two">
+      <div class="camp-card-two-content">
+        <h2>Coastal Communities</h2>
+        <p>
+          Opportunities abound for students and teachers to experience Don Lee
+          Camp & Retreat Center through our school based experiential education
+          programs. In the spring and fall, a variety of hands-on, interactive
+          education programs are offered for groups of students to participate
+          in for a day, or up to five days. Our ideal, coastal setting on the
+          Neuse River Estuary offers groups a unique opportunity to learn
+          through experiential education.
+        </p>
+      </div>
+      <img
+        src="./images/coastal-communities.jpeg"
+        alt=""
+        class="camp-card-two-image w-med"
+        width="1950px"
+        height="1300px"
+      />
+    </div>
+
+    <div class="camp-card-two">
+      <div class="camp-card-two-content">
+        <h2>Common Ground</h2>
+        <p>
+          An Adventure/Challenge Curriculum Designed to Build Community and
+          Teamwork Common Ground is Don Lee Camp & Retreat Center’s low-element
+          challenge course program for school groups, scouting troops, church
+          groups, and community organizations. This program utilizes the
+          activities of the challenge course experience and pulls together an
+          opportunity for students to work together to gain understanding of
+          cooperation skills and teamwork concepts.
+        </p>
+      </div>
+      <img
+        src="./images/common-ground.jpeg"
+        alt=""
+        class="camp-card-two-image w-med"
+        width="1024px"
+        height="683px"
+      />
+    </div>
+
+    <div class="camp-card-two">
+      <div class="camp-card-two-content">
+        <h2>Remote Learning</h2>
+        <p>
+          With schools moving back and forth to all or partially online Don Lee
+          has developed a solution for families who are not able to stay home
+          with their students as they learn online. Don Lee’s Day Camp for
+          Remote Learners is an opportunity for students in grades 3 through 8
+          to socialize in a safe and socially distant way with other students
+          their age while completing their school work and having fun!
+        </p>
+      </div>
+      <img
+        src="./images/lily.jpeg"
+        alt=""
+        class="camp-card-two-image w-med"
+        width="1024px"
+        height="681px"
+      />
+    </div>
+
+    <footer class="footer-grid">
+        <div class="contact-form">
+          <h1>Contact Us</h1>
+          <label for="fname">First Name</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Your name"
+          />
+  
+          <label for="lname">Last Name</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Your last name"/>
+  
+          <label for="email">E-mail</label>
+          <input type="text" id="email" name="email" placeholder="Your E-mail" />
+  
+          <label for="message">Your Message</label>
+          <textarea name="message" id="message" cols="30" rows="10"></textarea>
+  
+          <input type="submit" value="Send" />
+        </div>
+  
+        <div class="about">
+          <h1>About</h1>
+          <p>
+            Don Lee Camp & Retreat Center is affiliated by faith with The North
+            Carolina Conference of the United Methodist Church and operated by NC
+            United Methodist Camp & Retreat Ministries, Inc.
+          </p>
+        </div>
+  
+        <div class="info">
+          <h1>Info</h1>
+          <p>315 Camp Don Lee Road Arapahoe,NC 28510</p>
+          <p>252.249.1106</p>
+          <p>Also visit our sister camps Rockfish and Chestnut Ridge!</p>
+        </div>
+  
+        <div class="social-icons">Social Icons</div>
+  
+        <div class="footer-logo"><img src="./images/footer-logo.png" alt="footer-logo"></div>
+      </footer>
+      
+  </body>
 </html>
