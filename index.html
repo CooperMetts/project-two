@@ -5,13 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2c837313e5.js" crossorigin="anonymous"></script>
     <script src="./scripts/navbar.js" defer></script>
-    <title>Document</title>
+    <title>Don Lee Center</title>
   </head>
   <body>
     <nav class="navbar">
       <div>
-        <a href="#"><img src="./images/cropped-logo-donlee-2.png" alt="" /> </a>
+        <a href="./index.html"><img src="./images/cropped-logo-donlee-2.png" alt=""/></a>
       </div>
       <ul class="nav-list">
         <li class="list-item">
@@ -45,26 +52,30 @@
         <div class="hero-contact">Contact Us</div>
       </div>
 
-      <div class="social"></div>
+      <div class="social">
+        <i class="fab fa-facebook-square social-logos"></i>
+        <i class="fab fa-instagram social-logos"></i>
+        <i class="fab fa-youtube social-logos"></i>
+      </div>
 
       <div class="carousel">
 
         <div class="slideshow-container">
           <div class="mySlides">
             <img src="./images/tanner.jpg" alt="Summer Camp">
-            <div class="text">Summer Camp</div>
+            <div class="text card-headers">Summer Camp</div>
           </div>
           <div class="mySlides">
             <img src="./images/Bailey.jpeg" alt="Retreats">
-            <div class="text">Retreats</div>
+            <div class="text card-headers">Retreats</div>
           </div>
           <div class="mySlides">
             <img src="./images/schools.jpeg" alt="School Programs">
-            <div class="text">School Programs</div>
+            <div class="text card-headers">School Programs</div>
           </div>
           <div class="mySlides">
             <img src="./images/remote-learning.jpeg" alt="Remoting Learning">
-            <div class="text">Remote Learning</div>
+            <div class="text card-headers">Remote Learning</div>
           </div>
           <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
           <a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -85,7 +96,7 @@
               </div>
               <div class="card-bottom">
                 <div class="card-info">
-                  <p class="home-card-title"><h3>Summer Camp</h3></p>
+                  <p class="home-card-title"><h2 class="card-headers">Summer Camp</h2></p>
                   <p>
                     Camp Don Lee’s summer programs are built around a
                     small-group model that includes eight girls and eight boys
@@ -93,7 +104,7 @@
                     experienced counselors and two support staff.
                   </p>
                 </div>
-                <div class="home-cards-button">Read more</div>
+                <a href="./summer-camp.html"><div class="home-cards-button">Read more</div></a>
               </div>
             </div>
           </div>
@@ -110,7 +121,7 @@
               </div>
               <div class="card-bottom">
                 <div class="card-info">
-                  <p class="home-card-title"><h3>Retreats</h3></p>
+                  <p class="home-card-title"><h2 class="card-headers">Retreats</h2></p>
                   <p>
                     These days, time away together in a beautiful setting is
                     rare. We specialize in hosting retreat experiences centered
@@ -118,7 +129,7 @@
                     and college groups.
                   </p>
                 </div>
-                <div class="home-cards-button">Read more</div>
+                <a href="./retreats.html"><div class="home-cards-button">Read more</div></a>
               </div>
             </div>
           </div>
@@ -136,14 +147,14 @@
               </div>
               <div class="card-bottom">
                 <div class="card-info">
-                  <p class="home-card-title"> <h3>School Programs</h3></p>
+                  <p class="home-card-title"> <h2 class="card-headers">School Programs</h2></p>
                   <p>
                     Don Lee’s school programs offer a variety of experiences for
                     your school group. Check out our Coastal Communities and
                     Common Ground outdoor education programs!
                   </p>
                 </div>
-                <div class="home-cards-button">Read more</div>
+                <a href="./school-programs.html"><div class="home-cards-button">Read more</div></a>
               </div>
             </div>
           </div>
@@ -152,7 +163,7 @@
 
     <footer class="footer-grid">
       <div class="contact-form">
-        <h1>Contact Us</h1>
+        <h1 class="card-headers">Contact Us</h1>
         <label for="fname">First Name</label>
         <input
           type="text"
@@ -174,11 +185,11 @@
         <label for="message">Your Message</label>
         <textarea name="message" id="message" cols="30" rows="10"></textarea>
 
-        <input type="submit" value="Send" />
+       <input type="submit" value="Send" class="footer-button"/>
       </div>
 
       <div class="about">
-        <h1>About</h1>
+        <h1 class="card-headers">About</h1>
         <p>
           Don Lee Camp & Retreat Center is affiliated by faith with The North
           Carolina Conference of the United Methodist Church and operated by NC
@@ -187,8 +198,8 @@
       </div>
 
       <div class="info">
-        <h1>Info</h1>
-        <p>315 Camp Don Lee Road Arapahoe,NC 28510</p>
+        <h1 class="card-headers">Info</h1>
+        <p>315 Camp Don Lee Road Arapahoe, NC 28510</p>
         <p>252.249.1106</p>
         <p>Also visit our sister camps Rockfish and Chestnut Ridge!</p>
       </div>

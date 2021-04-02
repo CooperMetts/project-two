@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../styles/main.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <script src="./scripts/navbar.js" defer></script>
     <title>Summer Camp</title>
   </head>
@@ -36,7 +41,7 @@
 
     <div class="hero">
       <div>
-        <h1>Summer Camp</h1>
+        <h1 class="card-headers">Summer Camp</h1>
       </div>
     </div>
 
@@ -76,7 +81,7 @@
 
       <div class="camp-card-two">
         <div class="camp-card-two-content">
-          <h2>Early Camp</h2>
+          <h2 class="card-headers">Early Camp</h2>
           <p>
             Looking for one week camps at Don Lee? We are excited to offer
             opportunities for elementary and youth one-week campers to come to
@@ -93,11 +98,15 @@
           width="1024px"
           height="683px"
         />
+        <a
+          href="https://www.ultracamp.com/clientlogin.aspx?idCamp=623&campcode=dlc&lang=en-Us"
+          target="blank"><button class="register">Register here!</button></a
+        >
       </div>
 
       <div class="camp-card-two">
         <div class="camp-card-two-content">
-          <h2>Two Week Camps</h2>
+          <h2 class="card-headers">Two Week Camps</h2>
           <p>
             Whether campers are coming with friends or on their own, they’ll
             become part of a small group family that is truly special to Don
@@ -116,11 +125,15 @@
           width="1024px"
           height="683px"
         />
+        <a
+          href="https://www.ultracamp.com/clientlogin.aspx?idCamp=623&campcode=dlc&lang=en-Us"
+          target="blank"><button class="register">Register here!</button></a
+        >
       </div>
 
       <div class="camp-card-two">
         <div class="camp-card-two-content">
-          <h2>Mariners</h2>
+          <h2 class="card-headers">Mariners</h2>
           <p>
             Make new friends while participating in multi-days sailing on the
             Neuse River and to Cape Lookout in Sunfish, Flying Scots, and Hobie
@@ -137,11 +150,15 @@
           width="1024px"
           height="681px"
         />
+        <a
+          href="https://www.ultracamp.com/clientlogin.aspx?idCamp=623&campcode=dlc&lang=en-Us"
+          target="blank"><button class="register">Register here!</button></a
+        >
       </div>
 
       <div class="camp-card-two">
         <div class="camp-card-two-content">
-          <h2>Navigators</h2>
+          <h2 class="card-headers">Navigators</h2>
           <p>
             This three-week high adventure camp will challenge experienced
             sailors with an exciting trip across the Pamlico Sound to Portsmouth
@@ -157,11 +174,15 @@
           width="700px"
           height="467px"
         />
+        <a
+          href="https://www.ultracamp.com/clientlogin.aspx?idCamp=623&campcode=dlc&lang=en-Us"
+          target="blank"><button class="register">Register here!</button></a
+        >
       </div>
 
       <div class="camp-card-two">
         <div class="camp-card-two-content">
-          <h2>Leaders in Training</h2>
+          <h2 class="card-headers">Leaders in Training</h2>
           <p>
             This four week leadership program is designed for older youth who
             are ready for a highly challenging and deeply rewarding experience.
@@ -181,11 +202,15 @@
           width="1024px"
           height="683px"
         />
+        <a
+          href="https://www.ultracamp.com/clientlogin.aspx?idCamp=623&campcode=dlc&lang=en-Us"
+          target="blank"><button class="register">Register here!</button></a
+        >
       </div>
 
       <footer class="footer-grid">
         <div class="contact-form">
-          <h1>Contact Us</h1>
+          <h1 class="card-headers">Contact Us</h1>
           <label for="fname">First Name</label>
           <input
             type="text"
@@ -193,44 +218,51 @@
             name="firstname"
             placeholder="Your name"
           />
-  
+
           <label for="lname">Last Name</label>
           <input
             type="text"
             id="lname"
             name="lastname"
-            placeholder="Your last name"/>
-  
+            placeholder="Your last name"
+          />
+
           <label for="email">E-mail</label>
-          <input type="text" id="email" name="email" placeholder="Your E-mail" />
-  
+          <input
+            type="text"
+            id="email"
+            name="email"
+            placeholder="Your E-mail"
+          />
+
           <label for="message">Your Message</label>
           <textarea name="message" id="message" cols="30" rows="10"></textarea>
-  
-          <input type="submit" value="Send" />
+
+          <input type="submit" value="Send" class="footer-button"/>
         </div>
-  
+
         <div class="about">
-          <h1>About</h1>
+          <h1 class="card-headers">About</h1>
           <p>
             Don Lee Camp & Retreat Center is affiliated by faith with The North
-            Carolina Conference of the United Methodist Church and operated by NC
-            United Methodist Camp & Retreat Ministries, Inc.
+            Carolina Conference of the United Methodist Church and operated by
+            NC United Methodist Camp & Retreat Ministries, Inc.
           </p>
         </div>
-  
+
         <div class="info">
-          <h1>Info</h1>
-          <p>315 Camp Don Lee Road Arapahoe,NC 28510</p>
+          <h1 class="card-headers">Info</h1>
+          <p>315 Camp Don Lee Road Arapahoe, NC 28510</p>
           <p>252.249.1106</p>
           <p>Also visit our sister camps Rockfish and Chestnut Ridge!</p>
         </div>
-  
-        <div class="social-icons">Social Icons</div>
-  
-        <div class="footer-logo"><img src="./images/footer-logo.png" alt="footer-logo"></div>
-      </footer>
 
+        <div class="social-icons">Social Icons</div>
+
+        <div class="footer-logo">
+          <img src="./images/footer-logo.png" alt="footer-logo" />
+        </div>
+      </footer>
     </main>
   </body>
 </html>

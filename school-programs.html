@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../styles/main.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap" rel="stylesheet"> 
     <script src="./scripts/navbar.js" defer></script>
-    <title>Document</title>
+    <title>School Programs</title>
   </head>
   <body>
     <nav class="navbar">
@@ -34,14 +36,14 @@
 
     <div class="school-programs-hero">
       <div>
-        <h1>School Programs</h1>
+        <h1 class="card-headers">School Programs</h1>
       </div>
     </div>
 
     <div class="camp-card-two">
       <div class="camp-card-two-content">
-        <h2>Coastal Communities</h2>
-        <p>
+        <h2 class="card-headers">Coastal Communities</h2>
+        <p class="card-body">
           Opportunities abound for students and teachers to experience Don Lee
           Camp & Retreat Center through our school based experiential education
           programs. In the spring and fall, a variety of hands-on, interactive
@@ -50,6 +52,7 @@
           Neuse River Estuary offers groups a unique opportunity to learn
           through experiential education.
         </p>
+        <div class="home-cards-button">Book retreat</div>
       </div>
       <img
         src="./images/coastal-communities.jpeg"
@@ -62,8 +65,8 @@
 
     <div class="camp-card-two">
       <div class="camp-card-two-content">
-        <h2>Common Ground</h2>
-        <p>
+        <h2 class="card-headers">Common Ground</h2>
+        <p class="card-body">
           An Adventure/Challenge Curriculum Designed to Build Community and
           Teamwork Common Ground is Don Lee Camp & Retreat Center’s low-element
           challenge course program for school groups, scouting troops, church
@@ -72,6 +75,7 @@
           opportunity for students to work together to gain understanding of
           cooperation skills and teamwork concepts.
         </p>
+        <div class="home-cards-button">Book retreat</div>
       </div>
       <img
         src="./images/common-ground.jpeg"
@@ -84,8 +88,8 @@
 
     <div class="camp-card-two">
       <div class="camp-card-two-content">
-        <h2>Remote Learning</h2>
-        <p>
+        <h2 class="card-headers">Remote Learning</h2>
+        <p class="card-body">
           With schools moving back and forth to all or partially online Don Lee
           has developed a solution for families who are not able to stay home
           with their students as they learn online. Don Lee’s Day Camp for
@@ -93,6 +97,7 @@
           to socialize in a safe and socially distant way with other students
           their age while completing their school work and having fun!
         </p>
+        <div class="home-cards-button">Book retreat</div>
       </div>
       <img
         src="./images/lily.jpeg"
@@ -105,7 +110,7 @@
 
     <footer class="footer-grid">
         <div class="contact-form">
-          <h1>Contact Us</h1>
+          <h1 class="card-headers">Contact Us</h1>
           <label for="fname">First Name</label>
           <input
             type="text"
@@ -127,11 +132,11 @@
           <label for="message">Your Message</label>
           <textarea name="message" id="message" cols="30" rows="10"></textarea>
   
-          <input type="submit" value="Send" />
+          <input type="submit" value="Send" class="footer-button"/>
         </div>
   
         <div class="about">
-          <h1>About</h1>
+          <h1 class="card-headers">About</h1>
           <p>
             Don Lee Camp & Retreat Center is affiliated by faith with The North
             Carolina Conference of the United Methodist Church and operated by NC
@@ -140,8 +145,8 @@
         </div>
   
         <div class="info">
-          <h1>Info</h1>
-          <p>315 Camp Don Lee Road Arapahoe,NC 28510</p>
+          <h1 class="card-headers">Info</h1>
+          <p>315 Camp Don Lee Road Arapahoe, NC 28510</p>
           <p>252.249.1106</p>
           <p>Also visit our sister camps Rockfish and Chestnut Ridge!</p>
         </div>
@@ -150,6 +155,6 @@
   
         <div class="footer-logo"><img src="./images/footer-logo.png" alt="footer-logo"></div>
       </footer>
-      
+
   </body>
 </html>
