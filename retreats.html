@@ -10,15 +10,17 @@
       href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap"
       rel="stylesheet"
     />
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2c837313e5.js" crossorigin="anonymous"></script>
     <script src="./scripts/navbar.js" defer></script>
     <title>Retreats</title>
   </head>
   <body>
     <nav class="navbar">
       <div>
-        <a href="#"><img src="./images/cropped-logo-donlee-2.png" alt="" /> </a>
+        <a href="./index.html"><img src="./images/cropped-logo-donlee-2.png" alt="cdl-logo" class="nav-bar-logo"/></a>
       </div>
-      <ul class="nav-list">
+      <ul class="nav-list links">
         <li class="list-item">
           <a href="./index.html">Home</a>
         </li>
@@ -35,6 +37,7 @@
           <a href="./credits.html">Credits</a>
         </li>
       </ul>
+      <button class="toggle">Menu</button>
     </nav>
 
     <div class="retreats-hero">
@@ -150,14 +153,14 @@
             worship on the beach at the retreat? The answer to all of the above
             questions was, “YES”!
           </p>
-          <button class="register">Full story</button>
+          <button class="register full-story-1">Full story</button>
         </div>
       </div>
     </main>
 
     <footer class="footer-grid">
       <div class="contact-form">
-        <h1>Contact Us</h1>
+        <h1 class="card-headers">Contact Us</h1>
         <label for="fname">First Name</label>
         <input
           type="text"
@@ -171,8 +174,7 @@
           type="text"
           id="lname"
           name="lastname"
-          placeholder="Your last name"
-        />
+          placeholder="Your last name"/>
 
         <label for="email">E-mail</label>
         <input type="text" id="email" name="email" placeholder="Your E-mail" />
@@ -180,11 +182,11 @@
         <label for="message">Your Message</label>
         <textarea name="message" id="message" cols="30" rows="10"></textarea>
 
-        <input type="submit" value="Send" class="footer-button"/>
+       <input type="submit" value="Send" class="footer-button"/>
       </div>
 
       <div class="about">
-        <h1>About</h1>
+        <h1 class="card-headers">About</h1>
         <p>
           Don Lee Camp & Retreat Center is affiliated by faith with The North
           Carolina Conference of the United Methodist Church and operated by NC
@@ -193,17 +195,19 @@
       </div>
 
       <div class="info">
-        <h1>Info</h1>
+        <h1 class="card-headers">Info</h1>
         <p>315 Camp Don Lee Road Arapahoe, NC 28510</p>
         <p>252.249.1106</p>
         <p>Also visit our sister camps Rockfish and Chestnut Ridge!</p>
       </div>
 
-      <div class="social-icons">Social Icons</div>
-
-      <div class="footer-logo">
-        <img src="./images/footer-logo.png" alt="footer-logo" />
+      <div class="footer-icons">
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-youtube"></i>
       </div>
+
+      <div class="footer-logo"><img src="./images/footer-logo.png" alt="footer-logo"></div>
     </footer>
   </body>
 </html>

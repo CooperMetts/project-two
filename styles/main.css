@@ -11,6 +11,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 10px;
 }
 
 .nav-list {
@@ -69,9 +70,18 @@ body {
 .sailboat-logo {
   background: white;
   grid-area: 1 / 1 / 2 / span 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.sailboat-logo img,
+.sailboat-logo img {
+  display: flex;
+  object-fit: contain;
+  max-width: 90%;
+  height: 100%;
+}
+
 .aca-logo img {
   object-fit: contain;
   width: 100%;
@@ -106,7 +116,8 @@ body {
 }
 
 .hero-contact:hover {
-  border-width: 5px;
+  background-color: #ffeb38;
+  color: #33628e;
 }
 
 .social {
@@ -154,7 +165,6 @@ body {
   color: white;
   font-size: 16px;
   line-height: 24px;
-  margin: 10px;
 }
 
 .info {
@@ -164,7 +174,7 @@ body {
   line-height: 24px;
 }
 
-.social-icons {
+.footer-icons {
   grid-area: 2 / 3 / 2 / 4;
 }
 
@@ -358,6 +368,7 @@ iframe {
   padding: 3px;
   font-family: "Source Sans Pro", sans-serif;
   text-decoration: none;
+  margin-top: 16px;
 }
 
 a {
@@ -475,11 +486,13 @@ a {
 }
 
 .register:hover {
-  border-width: 5px;
+  background-color: #33628e;
+  color: #f0dca7;
 }
 
 .home-cards-button:hover {
-  border-width: 5px;
+  background-color: #33628e;
+  color: #f0dca7;
 }
 
 .card-headers {
@@ -505,7 +518,8 @@ a {
 }
 
 .footer-button:hover {
-  border-width: 5px;
+  background-color: white;
+  color: gray;
 }
 
 textarea {
@@ -514,7 +528,136 @@ textarea {
 
 .social-logos {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   color: #ffeb38;
+  text-decoration: none;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+}
+
+.logos {
+  color: #ffeb38;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .footer-grid {
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  .flex {
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-rows: 1fr 1fr 0.3fr;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+  }
+
+  .sailboat-logo {
+    grid-area: 1 / 1 / 1 / 4;
+  }
+
+  .carousel {
+    grid-area: 2 / 1 / 2 /4;
+  }
+
+  .aca-logo {
+    grid-area: 3 / 2 / 3 / 2;
+  }
+
+  .contact {
+    grid-area: 3 / 1 / 3 / 1;
+  }
+
+  .social {
+    grid-area: 3 / 3 / 3 / 3;
+  }
+}
+
+@media (max-width: 768px) {
+  .camp-card-two {
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  .camp-card-three {
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar ul {
+    top: 106px;
+    width: 100%;
+    position: absolute;
+    background: #f0dca7;
+    transform: translateY(-100vh);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbar ul.active {
+    transform: translateY(0);
+  }
+
+  .navbar ul li {
+    padding: 10px;
+  }
+
+  .toggle {
+    margin-right: 10px;
+    border: none;
+    color: #33628e;
+    background: none;
+    font-size: 20px;
+    font-family: "Source Sans Pro", sans-serif;
+  }
+}
+
+@media (min-width: 769px) {
+  .toggle {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .camp-card-two {
+    display: grid;
+    grid-template-rows: 1fr;
+  }
+
+  .mobile-header {
+    grid-area: 1 / 1 / 1 / 3;
+  }
+
+  .camp-card-two-image {
+    grid-area: 2 / 1 / 2 / 3;
+  }
+
+  .camp-card-two-content {
+    grid-area: 3 / 1 / 3 / 3;
+  }
+
+  .mobile-buttons {
+    grid-area: 4 / 1 / 4 / 1;
+  }
 }
