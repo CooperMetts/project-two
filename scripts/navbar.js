@@ -1,4 +1,3 @@
-
 var toggleButton = document.querySelector(".toggle");
 var links = document.querySelector(".links");
 
