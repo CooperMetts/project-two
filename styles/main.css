@@ -69,7 +69,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 4fr;
   grid-template-rows: 4fr 1fr 1fr;
-  min-height: 90vh;
+  min-height: 80vh;
   background: #fc751e;
   gap: 3px;
   border-bottom: solid 5px #fc751e;
