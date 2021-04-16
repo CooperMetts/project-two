@@ -40,7 +40,7 @@
   min-height: 100vh;
   width: 100%;
   color: white;
-  background-image: url(../images/summer-hero.jpeg);
+  background-image: url(../images/summer-hero.jpg);
   background-size: cover;
   margin-bottom: 20px;
 }
@@ -443,7 +443,7 @@ a {
   min-height: 100vh;
   width: 100%;
   color: white;
-  background-image: url(../images/retreats.jpeg);
+  background-image: url(../images/retreats.jpg);
   background-size: cover;
   margin-bottom: 10px;
 }
@@ -472,7 +472,7 @@ a {
   min-height: 100vh;
   width: 100%;
   color: white;
-  background-image: url(../images/schools.jpeg);
+  background-image: url(../images/schools.jpg);
   background-size: cover;
   margin-bottom: 10px;
 }
