@@ -238,6 +238,7 @@ textarea {
 
 .card-inner {
   background: #f0dca7;
+  height: 100%;
 }
 
 .card-top {
